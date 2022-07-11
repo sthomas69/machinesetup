@@ -1,11 +1,12 @@
 # Dotfiles and scripts I use on dev machines
 
-> Based off https://github.com/haacked/dotfiles
+> Based off https://github.com/wicksipedia/dotfiles
+> Original from https://github.com/haacked/dotfiles
 
 ## Setup
 
 1. Install the tools
-   `iwr -useb https://github.com/sthomas69/machinesetup/blob/1ff4f2f976c021cb2507bd397abf4050c1feb666/setup-choco.ps1 | iex`
+   `iwr -useb https://github.com/sthomas69/machinesetup/blob/main/setup-choco.ps1 | iex`
 2. Clone repo
    `git clone https://github.com/sthomas69/machinesetup.git`
 3. Customise Powershell & Windows Terminal
