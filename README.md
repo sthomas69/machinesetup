@@ -5,24 +5,24 @@
 ## Setup
 
 1. Install the tools
-   ```iwr -useb https://raw.githubusercontent.com/wicksipedia/dotfiles/main/setup-choco.ps1 | iex```
+   `iwr -useb https://github.com/sthomas69/machinesetup/blob/1ff4f2f976c021cb2507bd397abf4050c1feb666/setup-choco.ps1 | iex`
 2. Clone repo
-   ```git clone https://github.com/wicksipedia/dotfiles.git```
+   `git clone https://github.com/sthomas69/machinesetup.git`
 3. Customise Powershell & Windows Terminal
-   ```.\setup-shell.ps1```
+   `.\setup-shell.ps1`
 4. Reload profile
-   ```. $profile```
+   `. $profile`
 
 ## Update
 
 1. Pull latest
-   ```git pull```
+   `git pull`
 2. Reinstall the tools
-   ```.\setup-choco.ps1```
+   `.\setup-choco.ps1`
 3. Customise Powershell & Windows Terminal
-   ```.\setup-shell.ps1```
+   `.\setup-shell.ps1`
 4. Reload profile
-   ```. $profile```
+   `. $profile`
 
 ## What does this add?
 
@@ -48,7 +48,6 @@ Free tools:
 - Logitech Options
 - Microsoft Teams
 - Nodejs LTS
-- Notepad++
 - NSwag studio
 - OBS studio
 - OBS virtualcam
@@ -61,19 +60,16 @@ Free tools:
 - Windows Powertoys
 - Windows Terminal
 - Which
+- Boxstarter
 
 Paid tools: (optional)
 
 - 1Password
 - Camtasia
-- Office365 ProPlus
 - Snagit
+- Visual Studio 2017 Enterprise
 - Visual Studio 2019 Enterprise
-
-Gaming apps: (optional)
-
-- Epic Games launcher
-- Steam
+- Visual Studio 2022 Enterprise
 
 Customisations:
 
