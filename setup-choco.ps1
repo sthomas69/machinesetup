@@ -3,7 +3,7 @@ function Get-Gbp-QuestionAnswer {
     param(
     [Parameter(Mandatory, Position=0, HelpMessage="What are you asking the user to provide a value to?")]
         [string]
-		$Question = "Please provide 'INPUT'?",
+		$Question,
 
     [Parameter(Position=1, HelpMessage="What is the default responce value. `n`tDEFAULT=exit")]
         [string]
