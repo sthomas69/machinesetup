@@ -249,8 +249,9 @@ if ((Read-Host "Install 1Password and KeePass: (y/N)").ToLower() -eq 'y') {
     & choco install `
         1password `
         keepass `
-        keepass-plugin-keeagent ` # Allow SSH keys stored in a KeePass database to be used for SSH authentication by other programs
+        keepass-plugin-keeagent `
         -y
+		# Allow SSH keys stored in a KeePass database to be used for SSH authentication by other programs
 }
 
 if ((Read-Host "Install paid tools: SnagIt: (y/N)").ToLower() -eq 'y') {
@@ -263,11 +264,11 @@ if ((Read-Host "Install any Visual Studio (you will be asked for the versons): (
 	$VS_Install_List = ""
 
 	if ((Read-Host "Version: Visual Studio 2017: (y/N)").ToLower() -eq 'y') {
-		$VS_Install_List = $VS_Install_List & " visualstudio2017enterprise" }
+		$VS_Install_List = $VS_Install_List + " visualstudio2017enterprise" }
 	if ((Read-Host "Version: Visual Studio 2019: (y/N)").ToLower() -eq 'y') {
-		$VS_Install_List = $VS_Install_List & " visualstudio2019enterprise" }
+		$VS_Install_List = $VS_Install_List + " visualstudio2019enterprise" }
 	if ((Read-Host "Version: Visual Studio 2022: (y/N)").ToLower() -eq 'y') {
-		$VS_Install_List = $VS_Install_List & " visualstudio2022enterprise" }
+		$VS_Install_List = $VS_Install_List + " visualstudio2022enterprise" }
 
 	if ($VS_Install_List.Trim().Length -gt 0) {
         $Install_Command_Complete = $Install_Command_Base+$VS_Install_List.Trim()
