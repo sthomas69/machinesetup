@@ -6,7 +6,7 @@
 ## Setup
 
 1. Install the tools
-   `iwr -useb https://github.com/sthomas69/machinesetup/blob/main/setup-choco.ps1 | iex`
+   `iwr -useb https://github.com/sthomas69/machinesetup/raw/main/setup-choco.ps1 | iex`
 2. Clone repo
    `git clone https://github.com/sthomas69/machinesetup.git`
 3. Customise Powershell & Windows Terminal
