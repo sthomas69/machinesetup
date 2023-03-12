@@ -282,12 +282,12 @@ if ($IsRequiredAnswersCompleted = $true) {
 	Write-Output "Installing Telnet Client"
 	Enable-WindowsOptionalFeature -Online -FeatureName TelnetClient -NoRestart
 
-	if ($Install_HyperV == $true) {
+	if ($Install_HyperV = $true) {
 		Write-Output "Installing Hyper-V and packages"
 		Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All -NoRestart
 	}
 
-	if ($Install_WSL == $true) {
+	if ($Install_WSL = $true) {
 		Write-Output "Installing WSL"
 		Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart
 	}
