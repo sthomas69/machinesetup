@@ -14,6 +14,13 @@
 4. Reload profile
    `. $profile`
 
+## Semi-Unattended/Automated Setup Option
+
+#### I've created an option of getting asked all the questions before-hand so that you can then leave the script to install what you wanted without needing you to wait and ever answer the prompt. So you have time for coffee while it's being done.
+
+Install the tools
+`iwr -useb https://github.com/sthomas69/machinesetup/raw/main/setup-choco-semi-unattend.ps1 | iex`
+
 ## Update
 
 1. Pull latest
@@ -55,18 +62,14 @@ Free tools:
 - paint.net
 - Postman
 - Powershell 7
-- Sudo
-- SysInternals
 - VSCode
 - Windows Powertoys
 - Windows Terminal
-- Which
 - Boxstarter
 
 Paid tools: (optional)
 
 - 1Password
-- Camtasia
 - Snagit
 - Visual Studio 2017 Enterprise
 - Visual Studio 2019 Enterprise
